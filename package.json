@@ -1,0 +1,10 @@
+{
+  "name": "pg-app-1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Lex Yehia <lex.yehia@icloud.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pg": "^7.3.0"
+  }
+}
