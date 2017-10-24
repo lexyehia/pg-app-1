@@ -8,7 +8,7 @@ const db = knex({
     debug: false
 })
 
-const setupDb = (cb) => {
+const setupDb = () => {
     return db.schema.dropTableIfExists('famous_people')
     .then(() => {
         return db.schema.createTable('famous_people', (t) => {
