@@ -5,6 +5,7 @@
   "author": "Lex Yehia <lex.yehia@icloud.com>",
   "license": "UNLICENSED",
   "dependencies": {
+    "knex": "^0.13.0",
     "pg": "^7.3.0"
   }
 }
